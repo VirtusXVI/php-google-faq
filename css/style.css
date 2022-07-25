@@ -16,6 +16,7 @@ img{
 }
 .upper-header{
     display: flex;
+    margin-bottom: 1rem;
     align-items: center;
 }
 .upper-header *{
