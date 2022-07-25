@@ -3,13 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul{
+    list-style-type: none;
+}
+img{
+    width: 100px;
+}
 .header-container{
-    width: 99%;
-    margin: 0 auto;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+}
+.upper-header{
+    display: flex;
+    align-items: center;
+}
+.upper-header *{
+    margin-right: 1rem;
+}
+.page-title{
+    font-size: 2rem;
+}
+.lower-header ul{
+    display: flex;
+
+}
+.lower-header ul li{
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+}
+.active{
+    color: #7472c7;
+    border-bottom: 3px solid #7472c7;
 }
 /* FAQS STYLING */
 .faqs-container{
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     margin-top: 50px;
+}
+.faqs-container div{
+    margin-top: 3rem;
 }

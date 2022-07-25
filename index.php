@@ -46,7 +46,23 @@
 <body>
     <header>
         <div class="header-container">
-    
+            <div class="upper-header">
+                <div>
+                    <img src="img/google-logo.png" alt="">
+                </div>
+                <div>
+                    <span class="page-title">Privacy & Termini</span>
+                </div>
+            </div>
+            <div class="lower-header">
+                <ul>
+                    <li>Introduzione</li>
+                    <li>Norme Sulla Privacy</li>
+                    <li>Termini Di Servizio</li>
+                    <li>Tecnologie</li>
+                    <li class="active">Domande Frequienti</li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
